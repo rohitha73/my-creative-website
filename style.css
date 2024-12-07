@@ -1,0 +1,73 @@
+body{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+  }
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(129, 129, 233);
+}
+
+#creative{
+    color: blueviolet;
+}
+
+.main{
+    flex: 1;
+}
+
+img{
+    float: left;
+    height: 200px;
+    margin: 50px;
+}
+
+.card{
+    width: 45%;
+}
+
+.first-paragraph{
+    float: left;
+}
+
+.second-paragraph{
+    float: right;
+}
+
+@media(max-width: 600px){
+    body{
+        background-color: aqua;
+        display: block;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        text-align: center;
+    }
+    #creative{
+        color: rgb(248, 252, 5);
+    }
+    .card{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .main{
+        flex: 0%;
+    }
+}
